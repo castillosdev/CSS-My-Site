@@ -1,25 +1,59 @@
 .top-container {
-    background-color: #EEEEEE;
+  background-color: #1A1A40;
+  position: relative;
+  padding-top: 100px;
 }
-h1{
-    margin-top: 0px;
-}
-
-body{
-    margin: 0px;
-}
-
-.middle-container{
-background-color: red;
-width: 200px;
-height: 200px;
+h1 {
+  margin-top: 0px;
+  font-family: 'Source Code Pro', monospace;
+  color: white;
+  font-size: 100px;
 }
 
-.bottom-container{
-background-color: blue;
-width: 200px;
-height: 200px;
+.subtitle{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 40px;
 }
-.pro{
-    text-decoration: underline;
+
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+}
+h3 {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+  margin: 0px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+}
+
+.middle-container {
+background-color: #472a8b;
+width: auto;
+
+}
+
+.bottom-container {
+background-color: #7A0BC0;
+}
+.pro {
+  text-decoration: underline;
+}
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+.skills{
+    color: black;
+    background-color:white;
 }
