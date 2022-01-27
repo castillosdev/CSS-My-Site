@@ -1,47 +1,51 @@
 .top-container {
-  background-color: #1A1A40;
+  background-color: #1a1a40;
   position: relative;
   padding-top: 100px;
 }
 h1 {
-  margin-top: 50px;
-  font-family: 'Source Code Pro', monospace;
+  margin-top: auto;
+  font-family: "Source Code Pro", monospace;
   color: white;
   font-size: 5.625rem;
 }
 
-.subtitle{
-    font-family: 'Roboto', sans-serif;
-    color: white;
-    font-size: 2.5rem;
+.subtitle {
+  font-family: "Roboto", sans-serif;
+  color: white;
+  font-size: 2.5rem;
+  line-height: 2;
+  font-weight: normal;
 }
 
-.avatar{
-    margin-top: 50px;
+.avatar {
+  margin-top: 0px;
+  position: relative;
+  top: -50px
 }
 
 h2 {
-    font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
 }
 h3 {
-    font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 body {
   margin: 0px;
   text-align: center;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   color: white;
 }
 
 .middle-container {
-background-color: #472a8b;
-width: auto;
-
+  background-color: #472a8b;
+  width: 100px auto 100px auto;
 }
 
 .bottom-container {
-background-color: #7A0BC0;
+  background-color: #7a0bc0;
 }
 .pro {
   text-decoration: underline;
@@ -56,16 +60,38 @@ background-color: #7A0BC0;
   right: 300px;
   top: 50px;
 }
-.skills{
-    color: black;
-    background-color:white;
-    padding-bottom: 50px;
-    padding-top: 50px;
+.skills {
+  color: black;
+  background-color: white;
+  height: auto;
+  overflow: auto;
 }
-.skills-heading{
-    color: #472a8b;
-    font-size: 3rem;
+.skills-heading {
+  color: #472a8b;
+  font-size: 3rem;
 }
-.skills-subheading{
-    color: black;
+.skills-subheading {
+  color: #472a8b;
+  font-weight: bold;
+}
+.skill-row {
+  width: 30%;
+  margin: auto;
+  padding-bottom: 20px;
+  text-align: left;
+  line-height: 2;
+}
+
+.dev-image {
+  width: 25%;
+  float: left;
+}
+.design-image {
+  width: 25%;
+  height: auto;
+  float: right;
+}
+.profile{
+    width: 500px;
+    margin: auto;
 }
