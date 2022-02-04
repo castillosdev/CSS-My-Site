@@ -106,3 +106,61 @@ body {
     padding-top: 100px;
     padding-bottom: 100px;
 }
+.btn {
+  background: #ffffff;
+  background-image: -webkit-linear-gradient(top, #ffffff, #d3d5d6);
+  background-image: -moz-linear-gradient(top, #ffffff, #d3d5d6);
+  background-image: -ms-linear-gradient(top, #ffffff, #d3d5d6);
+  background-image: -o-linear-gradient(top, #ffffff, #d3d5d6);
+  background-image: linear-gradient(to bottom, #ffffff, #d3d5d6);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Georgia;
+  color: #472a8b;
+  font-size: 28px;
+  padding: 5px 10px 5px 10px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #9560b8;
+  background-image: -webkit-linear-gradient(top, #9560b8, #d0c0db);
+  background-image: -moz-linear-gradient(top, #9560b8, #d0c0db);
+  background-image: -ms-linear-gradient(top, #9560b8, #d0c0db);
+  background-image: -o-linear-gradient(top, #9560b8, #d0c0db);
+  background-image: linear-gradient(to bottom, #9560b8, #d0c0db);
+  text-decoration: none;
+}
+.footer-link{
+  margin: 10px 20px;
+}
+.footer-link:link {
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+
+.footer-link:visited {
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+
+.footer-link:active {
+  text-decoration: underline;
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+
+.copyright{
+  color: #ffffff;
+  font-size: 0.75 rem;
+  padding: 20px 0;
+}
